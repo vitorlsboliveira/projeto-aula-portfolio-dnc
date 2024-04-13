@@ -1,1 +1,1 @@
-# projeto-aula-portfolio-dnc-vitor
+# projeto-portfolio-dnc-vitor
