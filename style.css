@@ -1,0 +1,192 @@
+body {
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.container {
+	display: grid;
+	grid-auto-flow: column;
+	grid-auto-columns: 1fr;
+}
+
+#header {
+	font-family: Poppins;
+	font-size: 28px;
+	font-weight: 600;
+	line-height: 42px;
+	text-align: left;
+	text-decoration-line: underline;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	color: black;
+}
+
+#menu {
+	text-align: right;
+	margin-top: 49px;
+}
+
+#menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#menu li {
+	display: inline-block;
+	margin-left: 30px;
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: center;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+#buttonCta {
+	background: #1F7CFF;
+	width: 180px;
+	height: 48px;
+	font-family: Poppins;
+	font-weight: 400;
+	border-radius: 50px;
+	color: white;
+	padding: 10px 25px 10px 25px;
+}
+
+#headerCta p {
+	margin-bottom: 30px;
+}
+
+p.gray {
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 32px;
+	color: #575455;
+}
+
+#headerCta h1 {
+	font-family: Poppins;
+	font-size: 55px;
+	font-weight: bold;
+	line-height: 82.5px;
+	text-align: left;
+	color: #000000;
+}
+
+#headerImg img {
+	width: 100%;
+}
+
+.headerLogo {
+	text-align: center;
+	/* Centralizando as imagens dos clientes */
+	padding: 10px;
+}
+
+#clients {
+	margin-top: 60px;
+	margin-bottom: 55px;
+}
+
+#headerClientText {
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 24px;
+	text-align: left;
+}
+
+h2.red {
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	color: #F75C4E;
+}
+
+h1.black {
+	font-family: Poppins;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 54px;
+}
+
+#MeusServicos {
+	margin-top: 0;
+}
+
+.textCenter {
+	text-align: center;
+}
+
+#services .textCenter h3 {
+	font-family: Poppins;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 30px;
+}
+
+#services {
+	margin-top: 30px;
+}
+
+#contactImg {
+	width: 100%;
+	padding-top: 30px;
+}
+
+#contact {
+	margin-top: 100px;
+}
+
+#contactForm {
+	margin-top: 30px;
+	margin-left: 80px;
+	padding-top: 30px;
+}
+
+#contactForm input {
+	background: #F5F6FB;
+	padding: 15px 25px 15px 25px;
+	border-radius: 50px;
+	width: 75%;
+	border: 0;
+	font-family: Poppins;
+}
+
+#contactForm button {
+	background: #1F7CFF;
+	color: white;
+	padding: 10px 40px 10px 40px;
+	border-radius: 50px;
+	border: 0;
+	font-family: Poppins;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+#portfolioTitle {
+	margin-top: 110px;
+}
+
+#Portfolio {
+	margin-top: 0;
+}
+
+.portfolioImg img {
+	width: 100%;
+}
+
+.portfolioImg {
+	padding: 15px;
+}
+
+#portfolioBody {
+	margin-bottom: 100px;
+}
